@@ -1,0 +1,27 @@
+.benefits-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 20px 0;
+}
+.benefits-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.benefits-subtitle{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+.benefits-inner{
+ max-width: 980px;
+ margin: 0 auto; 
+}
+.features{
+    list-style-type: disc;
+    margin-left: 2.5rem;
+}
+.feature{
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}

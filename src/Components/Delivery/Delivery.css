@@ -1,0 +1,96 @@
+
+.delivery{
+    margin-top: 40px;
+}
+
+.delivery-title{
+    text-align: center;    
+    font-size: 35px;
+    
+}
+.delivery-subtitle{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ .delivery-inner{
+    display: flex;
+    justify-content: center;
+} 
+.inner-left{     
+    
+      margin: 20px auto;      
+}
+
+.inner_left-icon{
+    vertical-align: top;
+}
+
+.inner_left-icon img{      
+     max-width: 60%; 
+}
+
+.inner-right{    
+    max-width: 60%;    
+    margin: 20px auto;
+  
+}
+.inner-right_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.wrapper{  
+    padding: 10px ;   
+    
+}
+.wrapper p{
+    font-size: 20px;
+}
+.contact_link{
+    color: brown;
+}
+.payment-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.delivery-payment{
+    margin: 30px 0 70px 0;
+}
+.payment-inner{
+    display: flex;
+    justify-content: center;
+}
+.payment-money{
+   padding-right: 10px;
+}
+.money-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.payment-credit_card{    
+    padding-left: 30px;
+}
+@media(max-width:800px){
+    .delivery-inner{
+        padding: 10px;
+        margin:10px ;
+    }
+    .wrapper p{
+        font-size: 18px;
+    }
+    .payment-inner{
+        padding: 20px;
+        margin: 10px;
+    }
+}
+@media(max-width:560px){
+    .wrapper p{
+        font-size: 15px;
+    }
+}
