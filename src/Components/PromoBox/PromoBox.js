@@ -31,9 +31,6 @@ function PromoBox(){
                     </div>
     </section> 
 
-
-
-
     )
 }
 export default PromoBox

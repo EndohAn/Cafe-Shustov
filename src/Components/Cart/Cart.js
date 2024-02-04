@@ -5,8 +5,6 @@ import { getCartItems, getTotalPrice } from "../../Redux/cartSlice";
 import CartItem from "./CartItem";
 import { getTotalQuantity } from "../../Redux/cartSlice";
 import { Link} from "react-router-dom";
-// import {  useState } from "react";
-//  import swal from 'sweetalert';
 
 
 const Cart = () => {
@@ -16,30 +14,6 @@ const Cart = () => {
     const fixedTotalPrice = totalPrice.toFixed(2)
     const totalQuantity = useSelector ( getTotalQuantity )
 
-
-    // const [value, setValue] = useState("");
-    // const [discount,setDiscount]=useState(0);
-
-    
-    // function changeValue(e) {
-    //     setValue(e.target.value.toUpperCase());     
-    // }
-
-    //  function submitValue(e) {
-    //      addPromo()
-    //    e.preventDefault();
-    // }
-
-    //  const addPromo = () => {
-    //      if (value === "LUCK") {
-    //          setDiscount(20)
-    //      }
-    //      else {swal("Ошибка!", "Вы ввели неправильный промокод!");
-    //          }
-    //  }
-
-    // const totalWithDiscount = (totalPrice - totalPrice * (discount/100)).toFixed(2)
-    // const totalWithDiscount = totalPrice .toFixed(2)
    
 
     return (
@@ -61,11 +35,7 @@ const Cart = () => {
         
                 <h3 className="total">Итого:  {fixedTotalPrice} рублей</h3>
                 <h3 className="total">Общее количество: { totalQuantity } </h3> 
-                {/* <form onSubmit={submitValue} className="promo-box">
-                    <input className="promo-input"  placeholder="Введите промокод..." value={value} onChange={ changeValue} />
-                    <input className="promo-btn"  type="submit" value="Добавить"/>
-                    <h3 className="total">Итого: {totalWithDiscount} рублей</h3>
-                </form> */}
+                
         
             </div>
             )}            

@@ -74,4 +74,4 @@ export default Navbar;
 
 
 
-//  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+

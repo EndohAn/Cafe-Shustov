@@ -1,5 +1,4 @@
 import React from 'react';
-// import {Link} from "react-router-dom";
 import'./Delivery.css'
 import money from '../Assets/money.png'
 import credit_card from '../Assets/credit_card.png'
@@ -93,10 +92,6 @@ const Delivery =()=>{
        
 
         </section>
-
-
-
-
 
     )
 }

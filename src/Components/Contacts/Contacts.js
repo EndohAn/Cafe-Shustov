@@ -1,6 +1,4 @@
 import React from 'react';
-// import {Link} from "react-router-dom";
-// import Map from '../Map/Map';
 import './Contacts.css'
 import adress_icon from '../Assets/adress_icon.png'
 import telephone_icon from '../Assets/tel_icon.png'
@@ -62,9 +60,7 @@ const Contacts=()=>{
             </div>
         </div>  
     </div>
-        {/* <div className='map-wrapper'>
-             <Map/>                         
-        </div> */}
+       
         </div>
  )
 }

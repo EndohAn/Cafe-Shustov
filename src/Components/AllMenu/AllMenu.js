@@ -18,9 +18,6 @@ import Cards from '../Card/Cards'
             <Cards/>
             </div>
 
-
-
-
         </section>
         
     )
