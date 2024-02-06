@@ -136,9 +136,17 @@
   }
 }
 @media(max-width:500px){
+
   .footer_info{
     margin-left: 7px;
   }
+  .footer_nav{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* column-gap: 60px; */
+}
 }
 
 

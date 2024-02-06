@@ -151,3 +151,9 @@
     display: none;
   }
 }
+@media(max-width:770px){
+  .swiper{
+    width: 373px;
+    height: 420px;
+}
+}
